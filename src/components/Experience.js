@@ -5,8 +5,6 @@ import teenprogramming from '../img/teen-programming.jpg';
 import Header from './Header';
 import Footer from './Footer';
 
-
-
 class Experience extends Component{
 
   componentDidMount() {
