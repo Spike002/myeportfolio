@@ -20,25 +20,29 @@ img:hover {
 /* Header */
 
 #headerexperience{
-
      background-image: linear-gradient(rgba(66,5,8, 0.7), rgba(66,5,8, 0.7)), url(../cssimages/github.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
 }
 
-header .content-wrap{
+#headerexperience .content-wrap{
 
-     padding: 300px 50px;
+     padding: 150px 50px;
 }
-header .content-wrap h1 {
+#headerexperience .content-wrap h1 {
      padding: 20px 20px;
      color:  #fff;
 }
-header .content-wrap h4 {
+#headerexperience .content-wrap h2 {
+     padding: 0px 20px;
+     color:  #fff;
+}
+
+#headerexperience .content-wrap h4, h3 {
      color: #fff;
 }
-header .content-wrap p {
+#headerexperience .content-wrap p {
      padding: 20px 20px;
      color:  #fff;
 
@@ -73,7 +77,7 @@ header img {
 
 
 @media (max-width: 760px){
-     header .content-wrap{
+     #headerexperience .content-wrap{
           padding: 100px 20px;
      }
      #feateures h4{
@@ -107,12 +111,12 @@ header img {
           font-size: 14px;
           color: #2D1901;
      }
-     header .content-wrap h1 {
+     #headerexperience .content-wrap h1 {
           padding: 10px 10px;
 
 
      }
-     header .content-wrap p {
+     #headerexperience .content-wrap p {
           padding: 10px 10px;
 
      }
@@ -120,18 +124,25 @@ header img {
 }
 
 #experience {
-     padding: 100px 0px 0px 0px;
+     padding: 50px 0px 50px 0px;
 }
 
 #education {
-     padding: 100px 0px 100px 0px;
+     padding: 50px 0px 50px 0px;
 }
 #experience p,  #education p{
      padding: 25px 25px;
 }
 
-#experience h2,  #education h2{
-     padding: 0px 25px;
+#experience h2{
+     padding: 0px 25px 10px 0;
+}
+
+#experience h4 {
+     padding: 10px 0 0 0;
+}
+#education h2{
+  padding: 0px 25px 10px 25px;
 }
 
 #experience ul,  #education ul{

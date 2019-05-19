@@ -23,11 +23,10 @@ class Experience extends Component{
 
                        <div className="row center-xs center-sm center-md center-lg">
                             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                 <h1>Hello, I'm Soravath</h1>
-                                 <h4>A Web Developer </h4>
-                                 <p>Design and build responsive
+                                 <h1>Web Developer </h1>
+                                 <h3>Design and build responsive
                                       websites for multiple devices.
-                                 </p>
+                                 </h3>
                             </div>
 
                        </div>
@@ -38,35 +37,7 @@ class Experience extends Component{
        </header>
 
 
-       { /* section-1  */}
 
-         <section id="features">
-           <div className="container">
-             <div className="row center-xs center-sm center-md center-lg">
-               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                 <h2>Practical Experience with</h2>
-
-                 <div className="row center-xs center-sm center-md center-lg">
-                   <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                     <i className="fas fa-desktop"></i>
-                     <h4>Desktop Applications</h4>
-                   </div>
-
-                   <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                     <i className="fas fa-tachometer-alt"></i>
-                     <h4>Web Applications</h4>
-                   </div>
-
-                   <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                     <i className="fas fa-mobile-alt"></i>
-                     <h4>Mobile Applications</h4>
-                   </div>
-
-               </div>
-               </div>
-             </div>
-           </div>
-         </section>
 
          { /* section-2  */}
          <section id="experience">
@@ -76,8 +47,10 @@ class Experience extends Component{
                             <div className="row center-xs center-sm start-md start-lg">
                                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                                       <div className="text-wrap">
-                                           <h2>Working Experience</h2>
-                                           <p>A web developer at <a href="https://plumdirectmarketing.com/" target="_blank">Plum Direct Marketing in Dartmouth, Massachusetts</a> <em>March 2019 - present</em>
+                                           <h2>Working Experience:</h2>
+                                           <h6><a href="https://plumdirectmarketing.com/" target="_blank">Plum Direct Marketing, Dartmouth, MA</a> <em>March 2019 - present</em></h6>
+                                           <h4>Web Developer</h4>
+                                           <p>
                                                 <ul>
                                                      <li>Design, create mock-up ,and build websites with CMS WordPress</li>
                                                      <li>Plus manage, maintain, and update websites and integrate with new technology.</li>
@@ -100,6 +73,36 @@ class Experience extends Component{
                   </div>
              </div>
          </section>
+
+         { /* section-1  */}
+
+           <section id="features">
+             <div className="container">
+               <div className="row center-xs center-sm center-md center-lg">
+                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                   <h2>Practical Experience with</h2>
+
+                   <div className="row center-xs center-sm center-md center-lg">
+                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                       <i className="fas fa-desktop"></i>
+                       <h4>Desktop Applications</h4>
+                     </div>
+
+                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                       <i className="fas fa-tachometer-alt"></i>
+                       <h4>Web Applications</h4>
+                     </div>
+
+                     <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                       <i className="fas fa-mobile-alt"></i>
+                       <h4>Mobile Applications</h4>
+                     </div>
+
+                 </div>
+                 </div>
+               </div>
+             </div>
+           </section>
 
       {/* section-3  */}
         <section id="education">
