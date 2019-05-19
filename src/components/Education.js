@@ -33,7 +33,7 @@ class Education extends Component {
                    <div className="container">
                         <div className="content-wrap">
                              <h3>Completed a bachelor degree in computer science
-                              as a full time student maintaining a high GPA in academic
+                              as a full time student, maintained a high GPA in academic
                               subjects while working near full time hours weekly.</h3>
 
                         </div>
