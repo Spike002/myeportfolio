@@ -33,18 +33,13 @@ class Projects extends Component {
                          <img src={eportfolioImage} alt="eportfolio" />
                          <h5>Personal Eportfolio</h5>
                          <p>It consists collection of my work and projects.</p>
-                         <a href="http://www.soravatheportfolios.com"><button>View My Eportfolio</button></a>
+                         <a href="http://www.soravatheportfolios.com" target="_blank"><button>View My Eportfolio</button></a>
                     </div>
 
                </div>
 
           </div>
         </section>
-
-
-
-
-
 
           <section id="features">
             <div class="container">
