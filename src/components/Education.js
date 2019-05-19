@@ -21,7 +21,6 @@ class Education extends Component {
                                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                       <h1>University of Massachusetts Dartmouth</h1>
                                       <h4>Bachelor degree of Computer Information System </h4>
-                                      <h6>2017 - 2019 </h6>
                                       <p>
                                       </p>
                                  </div>
