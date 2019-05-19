@@ -1,0 +1,34 @@
+footer {
+     background-color: rgb(66, 5, 8);
+     padding: 70px 0 70px 0;
+
+}
+
+footer .content-wrap {
+
+     color: #fff;
+}
+footer .content-wrap ul{
+     padding: 20px 0 0 0;
+
+}
+footer .content-wrap ul li{
+     list-style-type: none;
+     padding: 2px 0;
+
+
+}
+footer .content-wrap a {
+     text-decoration: none;
+     color: #fff;
+}
+footer .content-wrap ul li .fab{
+     font-size: 20px;
+
+}
+
+@media (max-width: 1089px) {
+     footer .content-wrap ul {
+          padding: 10px 0 20px 0;
+     }
+}

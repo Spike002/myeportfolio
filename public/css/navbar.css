@@ -1,0 +1,55 @@
+/* NavBar */
+.navbar{
+     display: flex;
+     justify-content: flex-end;
+}
+.navbar a{
+     color: #2D1901;
+     text-align: right;
+     text-decoration: none;
+     padding: 30px 30px;
+}
+
+#toggle{
+     display: none;
+}
+
+.toggleNav {
+     background-color: #fff;
+     border-bottom: 2px solid black;
+     color: #2D1901;
+     padding: 20px;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.toggleNav {
+     display: none;
+}
+
+label .fa{
+     font-size: 25px;
+     justify-content: flex-end;
+}
+@media screen and (max-width: 700px){
+     .navbar{
+          flex-direction: column;
+          display: none;
+
+     }
+
+     .navbar a{
+          font-size: 14px;
+          text-align: center;
+          padding: 20px 0;
+          border-bottom: 2px solid rgb(66, 5, 8);
+     }
+     #toggle:checked + .navbar{
+          display: flex;
+     }
+
+     .toggleNav{
+          display: flex;
+     }
+}
+/* End NavBar */

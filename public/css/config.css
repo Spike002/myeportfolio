@@ -1,0 +1,34 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+ }
+
+html {
+   font-family: 'Lora', serif;
+}
+
+h1, h2 {
+     font-size: 40px;
+     color: #2D1901;
+}
+
+h3, h4 {
+     font-size: 22px;
+}
+
+h5, h6 {
+     font-size: 19px;
+}
+p{
+     font-size: 16px;
+     color: #2D1901;
+}
+
+/* Override container flexboxgrid */
+.container {
+  /* max-width: 1250px; */
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}

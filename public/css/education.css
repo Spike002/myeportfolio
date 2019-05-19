@@ -1,0 +1,130 @@
+/* Header */
+#headereducation {
+     background-image: linear-gradient(rgba(66,5,8, 0.5), rgba(66,5,8, 0.5)), url(../cssimages/university.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+header .content-wrap{
+
+     padding: 300px 50px;
+}
+header .content-wrap h1 {
+     padding: 20px 20px;
+     color:  #fff;
+}
+
+header .content-wrap h6 {
+     padding: 20px 20px;
+     color:  #fff;
+}
+header .content-wrap h4 {
+     color: #fff;
+}
+header .content-wrap p {
+     padding: 20px 20px;
+     color:  #fff;
+
+}
+
+header img {
+  width: 200px;
+  height: 250px;
+  margin: 30px auto;
+}
+
+/* End Header */
+
+
+
+
+
+#courses{
+     background-image: linear-gradient(rgba(234, 236, 239, 0.8), rgba(234, 236, 239, 0.8)), url(../cssimages/university-seats.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+
+
+}
+
+#courses h3{
+
+     padding: 250px 50px 250px 50px;
+}
+
+
+
+#projects .container .col-project button:hover{
+     background-color: rgb(66, 5, 8);
+     color: #fff;
+}
+
+
+footer {
+     background-color: rgb(66, 5, 8);
+     padding: 70px 0 70px 0;
+}
+
+footer .content-wrap {
+
+     color: #fff;
+}
+footer .content-wrap ul{
+     padding: 20px 0 0 0;
+}
+footer .content-wrap ul li{
+     list-style-type: none;
+     padding: 2px 0;
+
+}
+
+footer .content-wrap a {
+     text-decoration: none;
+     color: #fff;
+}
+footer .content-wrap ul li .fab{
+     font-size: 20px;
+
+}
+@media (max-width: 760px){
+     header .content-wrap{
+          padding: 50px 20px;
+     }
+
+     h1, h2 {
+          font-size: 30px;
+     }
+
+     h3, h4 {
+          font-size: 19px;
+     }
+
+     h5, h6 {
+          font-size: 16px;
+     }
+     p{
+          font-size: 14px;
+          color: #2D1901;
+     }
+     header .content-wrap h1 {
+          padding: 10px 10px;
+
+     }
+     header .content-wrap p {
+          padding: 10px 10px;
+     }
+
+     #courses h3{
+
+          padding: 70px 50px 70px 50px;
+     }
+
+}
+
+@media (max-width: 1089px) {
+     footer .content-wrap ul {
+          padding: 10px 0 20px 0;
+     }
+}
