@@ -6,27 +6,27 @@
      background-position: center;
 }
 
-header .content-wrap{
+#headereducation .content-wrap{
 
-     padding: 300px 50px;
+     padding: 200px 50px;
 }
-header .content-wrap h1 {
+#headereducation .content-wrap h1 {
      padding: 20px 20px;
      color:  #fff;
 }
 
-header .content-wrap h6 {
+/* #headereducation .content-wrap h6 {
      padding: 20px 20px;
      color:  #fff;
-}
-header .content-wrap h4 {
+} */
+#headereducation .content-wrap h4 {
      color: #fff;
 }
-header .content-wrap p {
+/* #headereducation .content-wrap p {
      padding: 20px 20px;
      color:  #fff;
 
-}
+} */
 
 header img {
   width: 200px;
@@ -50,7 +50,7 @@ header img {
 }
 
 #courses h3{
-
+    color: #333;
      padding: 250px 50px 250px 50px;
 }
 

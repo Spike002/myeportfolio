@@ -2,12 +2,21 @@
 .navbar{
      display: flex;
      justify-content: flex-end;
+     margin-bottom: 20px;
 }
+
 .navbar a{
      color: #2D1901;
+     font-size: 20px;
+     font-weight: bold;
      text-align: right;
      text-decoration: none;
-     padding: 30px 30px;
+     padding: 30px 20px 20px 20px;
+}
+
+.navbar a:hover{
+  color: rgb(66, 5, 8);
+  border-bottom: 3px solid #000;
 }
 
 #toggle{
@@ -37,13 +46,14 @@ label .fa{
           display: none;
 
      }
-
      .navbar a{
-          font-size: 14px;
+          font-size: 20px;
+          font-weight: bold;
           text-align: center;
           padding: 20px 0;
           border-bottom: 2px solid rgb(66, 5, 8);
      }
+
      #toggle:checked + .navbar{
           display: flex;
      }
