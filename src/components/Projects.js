@@ -26,6 +26,7 @@ class Projects extends Component {
                          <img src={chinesefood} alt="" />
                          <h5>Example Order Food Online</h5>
                          <p>It is a full stack javascript web applications</p>
+                         <p><a href="https://github.com/Spike002/example-order-food-online" target="_blank"><i class="githubcode fab fa-github-square"></i></a></p>
                          <a href="http://www.yungriverchinese.com/" target="_blank"><button>View Applications</button></a>
                     </div>
 
@@ -33,6 +34,7 @@ class Projects extends Component {
                          <img src={eportfolioImage} alt="eportfolio" />
                          <h5>Personal Eportfolio</h5>
                          <p>It consists collection of my work and projects.</p>
+                         <p><a href="https://github.com/Spike002/myeportfolio" target="_blank"><i class="githubcode fab fa-github-square"></i></a></p>
                          <a href="http://www.soravatheportfolios.com" target="_blank"><button>View My Eportfolio</button></a>
                     </div>
 

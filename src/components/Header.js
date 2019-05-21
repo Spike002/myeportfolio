@@ -13,7 +13,6 @@ const Header = () => {
             <a><Link to='/'>Experience</Link></a>
             <a><Link to='/projects'>Projects</Link></a>
             <a><Link to='education'>Education</Link></a>
-
        </div>
 
      </div>
