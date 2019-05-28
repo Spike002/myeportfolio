@@ -52,9 +52,9 @@ class Experience extends Component{
                                            <h4>Web Developer</h4>
                                            <p>
                                                 <ul>
-                                                     <li>Design, create mock-up ,and build websites with CMS WordPress</li>
+                                                     <li>Design, create mock-up, and build websites and templates with CMS WordPress</li>
                                                      <li>Plus manage, maintain, and update websites and integrate with new technology.</li>
-                                                     <li>Also design and optimize responsive websites: desktop, table and mobile</li>
+                                                     <li>Also design and optimize responsive websites with html, css, JavaScript for desktop, table and mobile</li>
 
                                                      <li>Assist in finding out internal technical solution</li>
                                                      <li>Design and customize photos, images, icons, SVG graphics with Adobe Suite</li>
