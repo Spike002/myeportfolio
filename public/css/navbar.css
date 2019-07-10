@@ -1,5 +1,5 @@
 /* NavBar */
-.navbar{
+/*.navbar{
      display: flex;
      justify-content: flex-end;
      margin-bottom: 20px;
@@ -61,5 +61,14 @@ label .fa{
      .toggleNav{
           display: flex;
      }
+}
+*/
+
+.navbar a{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+  color: rgb(66, 5, 8);
 }
 /* End NavBar */
